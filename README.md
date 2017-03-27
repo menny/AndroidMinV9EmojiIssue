@@ -12,8 +12,8 @@ They differ in two details:
 1) the application id is different: `com.example.menny.emojitest` and `com.example.menny.emojitestV9`
 2) the `minSdkVersion` value is different: `com.example.menny.emojitest` = 7, `com.example.menny.emojitestV9` = 9
 
-If you run the first (`com.example.menny.emojitest`), it works fine and render the text and emoji.
-If you run the second (`com.example.menny.emojitestV9`), the app crashes with:
+If you run the first (`com.example.menny.emojitest`, [apk here](https://github.com/menny/AndroidMinV9EmojiIssue/releases/download/1.0/app-debug.apk)), it works fine and render the text and emoji.<br>
+If you run the second (`com.example.menny.emojitestV9`, [apk here](https://github.com/menny/AndroidMinV9EmojiIssue/releases/download/1.0/appV9-debug.apk), the app crashes with:
 ```
 I/ActivityManager( 1246): Start proc com.example.menny.emojitestV9 for activity com.example.menny.emojitestV9/.MainActivity: pid=1896 uid=10035 gids={}
 W/dalvikvm( 1896): JNI WARNING: illegal start byte 0xf0
